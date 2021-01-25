@@ -2,6 +2,7 @@ package interfaceExample;
 
 public class Audi implements Car, Cloneable
 {
+    public static int b = 20;
 
     public int a = 10;
     //@Override
