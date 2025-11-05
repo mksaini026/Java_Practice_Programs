@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class MethodHidingParent {
 
-	static void m1() 
-	{ 
-		System.out.println("parent m1()"); 
+    static void m1() {
+        System.out.println("parent m1()");
 //		try
 //		{
 ////			Thread.sleep(100);
@@ -36,19 +35,18 @@ public class MethodHidingParent {
 //			ex.printStackTrace();
 //		}
 //		System.out.println( "After catch");
-		
-	}
-	
-	public static void main(String[] args)  
-	{ 
-		MethodHidingParent p = new MethodHidingParent();   
-		p.m1();
-		
+
+    }
+
+    public static void main(String[] args) {
+        MethodHidingParent p = new MethodHidingParent();
+        p.m1();
+
 //		 try(Scanner s = new Scanner(System.in)) 
 //		 { 
 //			 System.out.println("enter id");  
 //			 int a = s.nextInt(); 
 //			 System.out.println("input value="+a);  
 //		}  
-	}
+    }
 }
